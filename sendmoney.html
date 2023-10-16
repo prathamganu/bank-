@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Money</title>
+    <link rel="stylesheet" href="style_sendmoney.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="title">Spark Bank</div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://internship.thesparksfoundation.info/">About Us</a></li>
+                <li>Transfer Money</li>
+                <li>Our Customers</li>
+                <li>Contact Us</li>
+            </ul>
+    </nav>
+    <div class="welcome">
+        <h1>Transfer Money</h1>
+    </div>
+    <form action="sendmoney.php" method="POST">
+        <h3>Sender Account</h3>
+        <h3>Amount</h3><input class="input" type="text" name="Amount" id="Amount" placeholder="Enter the amount">
+        <br>
+        <button class="button" value="submit">Send Money</button>
+    </form>
+  </body>
+</html>

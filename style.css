@@ -1,0 +1,57 @@
+* {
+    
+    margin: 0px;
+    padding: 0px;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: rgb(14, 14, 56);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(4, 4, 31);
+    height: 90px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+.title{
+    font-size: 3rem;
+}
+
+.welcome {
+    font-size: 2.5rem;
+    background-image: url(bankk);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 500px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    margin: 45px;
+    text-align: center;
+}
+.subcontent{
+    float: left;
+    width: 33.33%;
+}
